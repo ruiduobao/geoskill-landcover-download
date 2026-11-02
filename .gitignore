@@ -50,3 +50,7 @@ venv.bak/
 *~
 .DS_Store
 Thumbs.db
+
+# Upgrade v1: never commit caches or partial downloads
+*.pyc
+*.part
